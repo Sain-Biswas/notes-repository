@@ -13,20 +13,27 @@ export default defineConfig({
         {
           icon: "github",
           label: "GitHub",
-          href: "https://github.com/withastro/starlight",
+          href: "https://github.com/Sain-Biswas",
+        },
+        {
+          icon: "linkedin",
+          label: "Linkedin",
+          href: "https://linkedin.com/in/sainbiswas",
+        },
+        {
+          icon: "seti:react",
+          label: "Portfolio",
+          href: "https://sainbiswas.vercel.app",
         },
       ],
       sidebar: [
         {
-          label: "Guides",
-          items: [
-            // Each item here is one entry in the navigation menu.
-            { label: "Example Guide", slug: "guides/example" },
-          ],
+          label: "Web development",
+          autogenerate: { directory: "web-development" },
         },
         {
-          label: "Reference",
-          autogenerate: { directory: "reference" },
+          label: "Spring Boot",
+          autogenerate: { directory: "spring-boot" },
         },
       ],
     }),
