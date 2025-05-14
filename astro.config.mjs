@@ -35,6 +35,10 @@ export default defineConfig({
           label: "Spring Boot",
           autogenerate: { directory: "spring-boot" },
         },
+        {
+          label: "Databases",
+          autogenerate: { directory: "databases" },
+        },
       ],
     }),
   ],
