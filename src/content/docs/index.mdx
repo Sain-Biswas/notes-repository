@@ -1,36 +1,38 @@
 ---
-title: Welcome to Starlight
+title: Welcome to my notes site.
 description: Get started building your docs site with Starlight.
 template: splash
 hero:
-  tagline: Congrats on setting up a new Starlight project!
+  tagline: Prepared by <a href="https://sainbiswas.vercel.app" target="_blank">Sain Biswas<a/>
   image:
     file: ../../assets/houston.webp
   actions:
-    - text: Example Guide
-      link: /web-development/example/
+    - text: View Notes
+      link: /web-development/
       icon: right-arrow
-    - text: Read the Starlight docs
-      link: https://starlight.astro.build
+      variant: primary
+    - text: Learn more about author
+      link: https://sainbiswas.vercel.app
       icon: external
       variant: minimal
 ---
 
-import { Card, CardGrid } from '@astrojs/starlight/components';
+import { Card, CardGrid, Icon } from '@astrojs/starlight/components';
 
-## Next steps
+## Learn About
 
 <CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
+	<Card title="Web Development" icon="seti:react">
+		Complete notes to learn Javascript, Typescript, ReactJS, ExpressJS, NextJS.
 	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
+	<Card title="Spring Boot" icon="seti:spring">
+		Comprehensive guide to industrial java framework.
 	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
-	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
+	<Card title="Databases" icon="seti:db">
+		Secure data by learning about SQL and NoSQL databases.
 	</Card>
 </CardGrid>
+
+<div class="center">
+Made with <Icon name='starlight' color='gold' class='inline'/> Starlight by Astro.
+</div>

@@ -7,7 +7,8 @@ import starlightThemeNova from "starlight-theme-nova";
 export default defineConfig({
   integrations: [
     starlight({
-      title: "My Docs",
+      title: "Notes - Sain Biswas",
+      customCss: ["./src/styles/global.css"],
       plugins: [starlightThemeNova()],
       social: [
         {
