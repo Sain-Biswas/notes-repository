@@ -1,0 +1,83 @@
+### **Sequence Containers**
+
+**Linear Data Structures**
+
+- [ ] Vector
+- [ ] List
+- [ ] Deque
+- [ ] Array
+- [ ] Forward List
+
+### **Associative Containers**
+
+**Sorted Data Structures**
+
+- [ ] Set
+- [ ] Multi Set
+- [ ] Map
+- [ ] Multi Map
+
+### **Unordered Associative Containers**
+
+**Hash based**
+
+- [ ] Unordered Set
+- [ ] Unordered Multi Set
+- [ ] Unordered Map
+- [ ] Unordered Multi Map
+
+### **Container Adapters**
+
+**Modified Interfaces**
+
+- [ ] Stack
+- [ ] Queue
+- [ ] Priority Queue
+
+### **Other Utilities**
+
+- [ ] Pair
+- [ ] Tuple
+- [ ] Optional
+- [ ] Variant
+- [ ] Any
+
+#### **Algorithms**
+
+**Sorting**
+
+- [ ] Sort
+- [ ] Stable Sort
+- [ ] Partial Sort
+
+**Searching**
+
+- [ ] Binary Search
+- [ ] Find
+- [ ] Lower Bound
+
+**Modifying Operators**
+
+- [ ] Reverse
+- [ ] Replace
+- [ ] Remove
+
+**Numerical Operator**
+
+- [ ] Accumulate
+- [ ] Min Element
+- [ ] Max Element
+
+**Heap Operations**
+
+- [ ] Make Heap
+- [ ] Push Heap
+- [ ] Pop Head
+
+**Bit Operations**
+
+- [ ] Builtin Pop-count
+
+### **Functors**
+
+- [ ] Complete

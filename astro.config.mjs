@@ -6,6 +6,10 @@ import { createStarlightObsidianPlugin } from "starlight-obsidian";
 
 const [webDevelopmentStarlightObsidian, webDevelopmentObsidianSidebarGroup] =
   createStarlightObsidianPlugin();
+const [
+  dataStructuresAndAlgorithmsStarlightObsidian,
+  dataStructuresAndAlgorithmsObsidianSidebarGroup,
+] = createStarlightObsidianPlugin();
 
 // https://astro.build/config
 export default defineConfig({
@@ -32,21 +36,22 @@ export default defineConfig({
 
       customCss: ["./src/styles/custom.css"],
       sidebar: [
-        {
-          label: "Guides",
-          autogenerate: { directory: "guides" },
-        },
-        {
-          label: "Reference",
-          autogenerate: { directory: "reference" },
-        },
         webDevelopmentObsidianSidebarGroup,
+        dataStructuresAndAlgorithmsObsidianSidebarGroup,
       ],
       plugins: [
         webDevelopmentStarlightObsidian({
           vault: "obsidian/web-development",
           output: "obsidian-web-development",
           sidebar: { label: "Web Development", collapsedFolders: true },
+        }),
+        dataStructuresAndAlgorithmsStarlightObsidian({
+          vault: "obsidian/data-structures-and-algorithms",
+          output: "obsidian-data-structures-and-algorithms",
+          sidebar: {
+            label: "Data Structures & Algorithms",
+            collapsedFolders: true,
+          },
         }),
         starlightThemeObsidian(),
       ],
