@@ -1,12 +1,17 @@
 // @ts-check
 import { defineConfig } from "astro/config";
 import starlight from "@astrojs/starlight";
+import starlightThemeObsidian from "starlight-theme-obsidian";
+import { createStarlightObsidianPlugin } from "starlight-obsidian";
+
+const [webDevelopmentStarlightObsidian, webDevelopmentObsidianSidebarGroup] =
+  createStarlightObsidianPlugin();
 
 // https://astro.build/config
 export default defineConfig({
   integrations: [
     starlight({
-      title: "My Notes - Sain Biswas",
+      title: "Notes",
       social: [
         {
           icon: "github",
@@ -29,15 +34,21 @@ export default defineConfig({
       sidebar: [
         {
           label: "Guides",
-          items: [
-            // Each item here is one entry in the navigation menu.
-            { label: "Example Guide", slug: "guides/example" },
-          ],
+          autogenerate: { directory: "guides" },
         },
         {
           label: "Reference",
           autogenerate: { directory: "reference" },
         },
+        webDevelopmentObsidianSidebarGroup,
+      ],
+      plugins: [
+        webDevelopmentStarlightObsidian({
+          vault: "obsidian/web-development",
+          output: "web-development",
+          sidebar: { label: "Web Development", collapsedFolders: true },
+        }),
+        starlightThemeObsidian(),
       ],
     }),
   ],
