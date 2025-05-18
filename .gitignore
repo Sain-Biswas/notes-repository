@@ -19,3 +19,7 @@ pnpm-debug.log*
 
 # macOS-specific files
 .DS_Store
+
+# auto generated
+src/content/docs/obsidian-**
+!src/content/docs/index.mdx

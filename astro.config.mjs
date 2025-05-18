@@ -45,7 +45,7 @@ export default defineConfig({
       plugins: [
         webDevelopmentStarlightObsidian({
           vault: "obsidian/web-development",
-          output: "web-development",
+          output: "obsidian-web-development",
           sidebar: { label: "Web Development", collapsedFolders: true },
         }),
         starlightThemeObsidian(),
