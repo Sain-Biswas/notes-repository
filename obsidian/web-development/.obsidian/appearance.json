@@ -1,1 +1,9 @@
-{}
+{
+  "theme": "obsidian",
+  "accentColor": "",
+  "cssTheme": "Catppuccin",
+  "baseFontSizeAction": true,
+  "monospaceFontFamily": "Rec Mono Casual",
+  "interfaceFontFamily": "Recursive Mono Casual Static",
+  "textFontFamily": "Recursive Mono Casual Static"
+}
