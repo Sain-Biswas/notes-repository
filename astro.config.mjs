@@ -6,7 +6,7 @@ import starlight from "@astrojs/starlight";
 export default defineConfig({
   integrations: [
     starlight({
-      title: "My Docs",
+      title: "My Notes - Sain Biswas",
       social: [
         {
           icon: "github",
@@ -24,6 +24,8 @@ export default defineConfig({
           href: "https://sainbiswas.vercel.app",
         },
       ],
+
+      customCss: ["./src/styles/custom.css"],
       sidebar: [
         {
           label: "Guides",
