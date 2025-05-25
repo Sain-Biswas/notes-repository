@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "677b0a502fa75246",
+        "id": "69535d5f3096e541",
         "type": "tabs",
         "children": [
           {
-            "id": "65c44f8a5071839f",
+            "id": "1175158a5ce527d9",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -74,8 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "923a32b2aad0ee55",
@@ -162,10 +161,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "65c44f8a5071839f",
+  "active": "1175158a5ce527d9",
   "lastOpenFiles": [
-    "STL C++/Introduction.md",
-    "STL C++/Progress.md",
+    "STL C++/3. Vector.md",
+    "STL C++/4. List.md",
+    "STL C++/2. Progress.md",
+    "Vector.md",
+    "STL C++/1. Introduction.md",
     "Introduction.md",
     "STL C++"
   ]
