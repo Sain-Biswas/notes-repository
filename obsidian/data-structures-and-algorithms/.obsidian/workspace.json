@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sorting/Selection Sort.md",
+                "file": "Sorting/Insertion sort.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Selection Sort"
+              "title": "Insertion sort"
             }
           }
         ]
@@ -167,8 +167,9 @@
   },
   "active": "c026d72593e464cc",
   "lastOpenFiles": [
-    "Untitled.md",
     "Sorting/Selection Sort.md",
+    "Sorting/Insertion sort.md",
+    "Untitled.md",
     "Sorting",
     "STL C++/3. Vector.md",
     "STL C++/4. List.md",
