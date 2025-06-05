@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sorting/Insertion sort.md",
+                "file": "Sorting/Recursive Bubble Sort.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Insertion sort"
+              "title": "Recursive Bubble Sort"
             }
           }
         ]
@@ -167,8 +167,9 @@
   },
   "active": "c026d72593e464cc",
   "lastOpenFiles": [
-    "Sorting/Selection Sort.md",
     "Sorting/Insertion sort.md",
+    "Sorting/Recursive Bubble Sort.md",
+    "Sorting/Selection Sort.md",
     "Untitled.md",
     "Sorting",
     "STL C++/3. Vector.md",
