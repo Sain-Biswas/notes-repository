@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "69535d5f3096e541",
+        "id": "afb386ef5e3291d1",
         "type": "tabs",
         "children": [
           {
-            "id": "1175158a5ce527d9",
+            "id": "c026d72593e464cc",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Sorting/Selection Sort.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Selection Sort"
             }
           }
         ]
@@ -161,8 +165,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1175158a5ce527d9",
+  "active": "c026d72593e464cc",
   "lastOpenFiles": [
+    "Untitled.md",
+    "Sorting/Selection Sort.md",
+    "Sorting",
     "STL C++/3. Vector.md",
     "STL C++/4. List.md",
     "STL C++/2. Progress.md",
