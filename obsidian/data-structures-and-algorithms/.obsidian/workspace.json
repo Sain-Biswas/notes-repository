@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sorting/Recursive Insertion Sort.md",
+                "file": "Graphs/1. Introduction and Representation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Recursive Insertion Sort"
+              "title": "1. Introduction and Representation"
             }
           }
         ]
@@ -167,17 +167,19 @@
   },
   "active": "c026d72593e464cc",
   "lastOpenFiles": [
-    "Sorting/Recursive Bubble Sort.md",
+    "STL C++/1. Introduction.md",
+    "STL C++/4. List.md",
+    "STL C++/3. Vector.md",
+    "STL C++/2. Progress.md",
+    "Graphs/1. Introduction and Representation.md",
     "Sorting/Recursive Insertion Sort.md",
+    "Graphs",
+    "Sorting/Recursive Bubble Sort.md",
     "Sorting/Insertion sort.md",
     "Sorting/Selection Sort.md",
     "Untitled.md",
     "Sorting",
-    "STL C++/3. Vector.md",
-    "STL C++/4. List.md",
-    "STL C++/2. Progress.md",
     "Vector.md",
-    "STL C++/1. Introduction.md",
     "Introduction.md",
     "STL C++"
   ]
